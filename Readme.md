@@ -7,7 +7,7 @@
 ## Installation
 
 ```
-$ npm install d3-circle
+$ npm install d3_circle
 ```
 
 ## Developing
