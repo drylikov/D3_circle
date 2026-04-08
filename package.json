@@ -1,0 +1,30 @@
+
+{
+  "name": "D3_circle",
+  "version": "1.0.0",
+  "description": "D3 circle chart",
+  "author": "Denis Rylikov <denis.rylikov@protonmail.com>",
+  "main": "build/index.js",
+  "license": "MIT",
+  "scripts": {
+    "prepublish": "make build"
+  },
+  "keywords": [
+    "d3",
+    "circle",
+    "chart",
+    "graph"
+  ],
+  "browserify": {
+    "transform": [
+      "babelify"
+    ]
+  },
+  "devDependencies": {
+    "react-fatigue-dev": ""
+  },
+  "dependencies": {
+    "d3": "^4.3.0"
+  },
+  "files": ["build"]
+}
